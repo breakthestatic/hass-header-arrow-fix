@@ -1,0 +1,23 @@
+{
+  "name": "hass-header-arrow-fix",
+  "version": "1.0.0",
+  "source": "src/hass-header-arrow-fix.ts",
+  "modern": "dist/hass-header-arrow-fix.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "parcel": "^2.8.3",
+    "prettier": "^2.8.8"
+  },
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build --no-source-maps"
+  },
+  "targets": {
+    "modern": {
+      "outputFormat": "global",
+      "optimize": true,
+      "includeNodeModules": true
+    }
+  }
+}
